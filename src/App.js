@@ -3,7 +3,7 @@ import './App.css'
 
 
 const App = () => {
-  return <h2>App</h2>;
+  return <h2>Sakura</h2>;
 };
 
 export default App;
