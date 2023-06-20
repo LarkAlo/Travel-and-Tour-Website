@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import {SiYourtraveldottv} from 'react-icons/si'
+import { SiYourtraveldottv } from "react-icons/si";
 
 const Navbar = () => {
   return (
@@ -13,6 +13,41 @@ const Navbar = () => {
               Travel.
             </h1>
           </a>
+        </div>
+
+        <div className="navBar">
+          <ul className="navBar flex">
+            <li className="navItem">
+              <a href="#" className="navLink">
+                Home
+              </a>
+            </li>
+            <li className="navItem">
+              <a href="#" className="navLink">
+                Home
+              </a>
+            </li>
+            <li className="navItem">
+              <a href="#" className="navLink">
+                Home
+              </a>
+            </li>
+            <li className="navItem">
+              <a href="#" className="navLink">
+                Home
+              </a>
+            </li>
+            <li className="navItem">
+              <a href="#" className="navLink">
+                Home
+              </a>
+            </li>
+            <li className="navItem">
+              <a href="#" className="navLink">
+                Home
+              </a>
+            </li>
+          </ul>
         </div>
       </header>
     </section>
