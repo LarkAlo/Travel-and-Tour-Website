@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import { SiYourtraveldottv } from "react-icons/si";
+import { AiFillCloseCircle } from "react-icons/ai";
+import { TbGridDots } from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -64,7 +66,13 @@ const Navbar = () => {
             </button>
           </ul>
 
-          <div className="closeNavBar"></div>
+          <div className="closeNavBar">
+            <AiFillCloseCircle className="icon" />
+          </div>
+        </div>
+
+        <div className="toggleNavBar">
+          <TbGridDots className="icon" />
         </div>
       </header>
     </section>
