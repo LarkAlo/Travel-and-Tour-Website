@@ -58,7 +58,13 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
+
+            <button className="btn">
+              <a href="#">BOOK NOW</a>
+            </button>
           </ul>
+
+          <div className="closeNavBar"></div>
         </div>
       </header>
     </section>
