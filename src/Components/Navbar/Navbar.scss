@@ -16,7 +16,7 @@
   position: fixed;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: var(--whiteColorDeam);
   width: 100%;
   padding: 1rem;
@@ -92,4 +92,11 @@
 }
 
 .toggleNavbar {
+  .icon {
+    font-size: 25px;
+    color: var(--PrimaryColor);
+  }
+  &:hover.icon {
+    color: var(--SecondaryColor);
+  }
 }
