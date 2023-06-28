@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         <div className="navBar">
-          <ul className="navBar flex">
+          <ul className="navLists flex">
             <li className="navItem">
               <a href="#" className="navLink">
                 Home
