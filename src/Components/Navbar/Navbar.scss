@@ -38,5 +38,45 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+
+    .navLists {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+
+      .navItem {
+        padding: 0.5rem 0;
+
+        .navLink {
+          color: var(--textColor);
+          font-size: 0.9rem;
+          font-weight: 600;
+          &:hover {
+            color: var(--PrimaryColor);
+          }
+        }
+      }
+
+      .btn {
+        margin-top: 1rem;
+
+        a {
+          font-weight: 600;
+          color: var(--whiteColor);
+        }
+      }
+    }
+
+    .closeNavbar {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      color: var(--PrimaryColor);
+      a:hover {
+        color: var(--SecondaryColor);
+      }
+    }
   }
 }
